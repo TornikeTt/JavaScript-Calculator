@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(71, 71, 148);
+}
+.conteiner{
+  display:grid;
+  grid-template-columns: repeat(4 , 130px);
+  grid-template-rows: repeat(6 , 90px);
+  grid-gap:10px;
+  font-size: 25px;
+}
+
+button{
+  cursor:pointer;
+  border-radius: 5px;
+  outline:none;
+  border: none;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+}
+button:active{
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+button:hover{
+  /* opacity:0.8; */
+  background-color: black;
+  color: white;
+}
+#display{
+  grid-column-start: 1;
+  grid-column-end:5;
+  background-color:whitesmoke;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+
+/* #secondarydisplay{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+} */
+
+#clear{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color:red;
+  font-size: 20px;
+}
+#subtract{
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+#add{
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+#equals{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+#seven{
+  grid-row-start:3;
+  grid-row-end:4;
+}
+#eight{
+  grid-row-start:3;
+  grid-row-end:4;
+}
+#nine{
+  grid-row-start:3;
+  grid-row-end:4;
+}
+
+#four{
+  grid-row-start:4;
+}
+
+#five{
+  grid-row-start:4;
+}
+#six{
+  grid-row-start:4;
+}
+
+#zero{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+
+
+#decimal span {
+  font-size: 80px;
+  position:absolute;
+  margin-top: -65px;
+  margin-left: -10px;
+}
