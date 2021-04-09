@@ -1,4 +1,5 @@
 <img src="image/desktop.PNG">
+
 - JavaScript Calculator from freecodecamp.org
 
 - Features
