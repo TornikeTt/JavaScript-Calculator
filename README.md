@@ -1,6 +1,6 @@
-<img src="image/desktop.PNG">
+# JavaScript Calculator from freecodecamp.org
 
-- JavaScript Calculator from freecodecamp.org
+<img src="image/desktop.PNG">
 
 - Features
     1. Addition
